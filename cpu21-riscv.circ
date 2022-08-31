@@ -1337,7 +1337,7 @@
     <comp lib="0" loc="(670,800)" name="Bit Extender">
       <a name="in_width" val="12"/>
       <a name="out_width" val="20"/>
-      <a name="type" val="zero"/>
+      <a name="type" val="sign"/>
     </comp>
     <comp lib="1" loc="(1180,440)" name="AND Gate">
       <a name="facing" val="east"/>
@@ -1903,7 +1903,7 @@
     <comp lib="0" loc="(720,640)" name="Bit Extender">
       <a name="in_width" val="12"/>
       <a name="out_width" val="32"/>
-      <a name="type" val="zero"/>
+      <a name="type" val="sign"/>
     </comp>
     <comp lib="6" loc="(899,408)" name="Text">
       <a name="text" val=""/>
@@ -2624,7 +2624,7 @@
     <comp lib="0" loc="(1450,100)" name="Constant">
       <a name="facing" val="north"/>
       <a name="width" val="13"/>
-      <a name="value" val="0x1"/>
+      <a name="value" val="0x31"/>
     </comp>
     <comp lib="0" loc="(930,140)" name="Tunnel">
       <a name="facing" val="west"/>
@@ -2759,7 +2759,7 @@
     <comp lib="0" loc="(1050,830)" name="Bit Extender">
       <a name="in_width" val="20"/>
       <a name="out_width" val="32"/>
-      <a name="type" val="zero"/>
+      <a name="type" val="sign"/>
     </comp>
     <comp lib="0" loc="(500,560)" name="Splitter">
       <a name="facing" val="east"/>
