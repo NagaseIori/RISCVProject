@@ -26288,7 +26288,6 @@ fff48493 fe04d8e3 a00893 73 a00893 73 413 140413
       <circ-port height="8" pin="380,240" width="8" x="46" y="56"/>
       <circ-port height="8" pin="180,150" width="8" x="46" y="76"/>
       <circ-port height="10" pin="170,220" width="10" x="75" y="75"/>
-      <circ-port height="8" pin="260,350" width="8" x="46" y="96"/>
       <circ-port height="8" pin="180,120" width="8" x="66" y="106"/>
       <circ-port height="10" pin="780,40" width="10" x="75" y="85"/>
       <circ-port height="8" pin="740,80" width="8" x="76" y="96"/>
@@ -26296,7 +26295,6 @@ fff48493 fe04d8e3 a00893 73 a00893 73 413 140413
       <circ-anchor facing="east" height="6" width="6" x="77" y="57"/>
     </appear>
     <wire from="(270,200)" to="(330,200)"/>
-    <wire from="(260,180)" to="(260,310)"/>
     <wire from="(180,150)" to="(240,150)"/>
     <wire from="(250,230)" to="(310,230)"/>
     <wire from="(190,120)" to="(190,130)"/>
@@ -26308,7 +26306,6 @@ fff48493 fe04d8e3 a00893 73 a00893 73 413 140413
     <wire from="(450,150)" to="(450,170)"/>
     <wire from="(310,150)" to="(310,230)"/>
     <wire from="(330,170)" to="(330,200)"/>
-    <wire from="(260,310)" to="(490,310)"/>
     <wire from="(210,170)" to="(240,170)"/>
     <wire from="(310,150)" to="(340,150)"/>
     <wire from="(280,150)" to="(310,150)"/>
@@ -26316,13 +26313,11 @@ fff48493 fe04d8e3 a00893 73 a00893 73 413 140413
     <wire from="(450,150)" to="(470,150)"/>
     <wire from="(430,170)" to="(450,170)"/>
     <wire from="(510,130)" to="(530,130)"/>
-    <wire from="(260,310)" to="(260,350)"/>
     <wire from="(250,210)" to="(270,210)"/>
     <wire from="(330,170)" to="(340,170)"/>
     <wire from="(380,180)" to="(390,180)"/>
     <wire from="(180,120)" to="(190,120)"/>
     <wire from="(330,200)" to="(530,200)"/>
-    <wire from="(490,160)" to="(490,310)"/>
     <wire from="(760,180)" to="(760,230)"/>
     <wire from="(740,180)" to="(760,180)"/>
     <wire from="(610,100)" to="(610,230)"/>
@@ -26577,17 +26572,6 @@ fff48493 fe04d8e3 a00893 73 a00893 73 413 140413
       <a name="facing" val="east"/>
       <a name="width" val="1"/>
       <a name="value" val="0x1"/>
-    </comp>
-    <comp lib="0" loc="(260,350)" name="Pin">
-      <a name="facing" val="north"/>
-      <a name="output" val="false"/>
-      <a name="width" val="1"/>
-      <a name="tristate" val="false"/>
-      <a name="pull" val="none"/>
-      <a name="label" val="EN"/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-      <a name="labelcolor" val="#000000"/>
     </comp>
     <comp lib="6" loc="(348,290)" name="Text">
       <a name="text" val="中断信号采样参考电路"/>
