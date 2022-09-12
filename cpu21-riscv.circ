@@ -22800,7 +22800,6 @@ fff48493 fe04d8e3 a00893 73 a00893 73 413 140413
     <wire from="(1350,1330)" to="(1360,1330)"/>
     <wire from="(1310,870)" to="(1390,870)"/>
     <wire from="(880,1540)" to="(880,1580)"/>
-    <wire from="(1920,1490)" to="(1990,1490)"/>
     <wire from="(2520,1500)" to="(2570,1500)"/>
     <wire from="(1940,1120)" to="(1950,1120)"/>
     <wire from="(1000,1530)" to="(1000,1630)"/>
@@ -22815,7 +22814,6 @@ fff48493 fe04d8e3 a00893 73 a00893 73 413 140413
     <wire from="(1340,1000)" to="(1340,1290)"/>
     <wire from="(890,1670)" to="(900,1670)"/>
     <wire from="(1660,1490)" to="(1660,1520)"/>
-    <wire from="(1470,1970)" to="(1470,2060)"/>
     <wire from="(2100,1310)" to="(2180,1310)"/>
     <wire from="(1330,1190)" to="(1330,1260)"/>
     <wire from="(720,1600)" to="(760,1600)"/>
@@ -23003,13 +23001,27 @@ fff48493 fe04d8e3 a00893 73 a00893 73 413 140413
     <wire from="(610,1760)" to="(610,1810)"/>
     <wire from="(570,1710)" to="(570,1770)"/>
     <wire from="(410,1770)" to="(570,1770)"/>
-    <wire from="(10,170)" to="(520,170)"/>
-    <wire from="(2390,2030)" to="(2390,2060)"/>
     <wire from="(570,1710)" to="(600,1710)"/>
+    <wire from="(600,1600)" to="(600,1710)"/>
+    <wire from="(690,1870)" to="(690,2040)"/>
+    <wire from="(690,2040)" to="(720,2040)"/>
+    <wire from="(720,2040)" to="(720,2060)"/>
+    <wire from="(530,1870)" to="(530,1910)"/>
+    <wire from="(530,1910)" to="(550,1910)"/>
+    <wire from="(530,1870)" to="(690,1870)"/>
+    <wire from="(330,1870)" to="(530,1870)"/>
+    <wire from="(600,1720)" to="(600,1730)"/>
+    <wire from="(600,1720)" to="(700,1720)"/>
+    <wire from="(700,1720)" to="(700,1770)"/>
+    <wire from="(700,1770)" to="(760,1770)"/>
+    <wire from="(1970,1650)" to="(2000,1650)"/>
+    <wire from="(1970,1490)" to="(1970,1650)"/>
+    <wire from="(1970,1490)" to="(1990,1490)"/>
+    <wire from="(1920,1490)" to="(1970,1490)"/>
     <wire from="(10,170)" to="(520,170)"/>
     <wire from="(2390,2030)" to="(2390,2060)"/>
-    <wire from="(600,1600)" to="(600,1710)"/>
-    <wire from="(600,1710)" to="(600,1730)"/>
+    <wire from="(10,170)" to="(520,170)"/>
+    <wire from="(2390,2030)" to="(2390,2060)"/>
     <comp lib="0" loc="(1940,1700)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="width" val="32"/>
@@ -23265,6 +23277,12 @@ fff48493 fe04d8e3 a00893 73 a00893 73 413 140413
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
     </comp>
+    <comp lib="0" loc="(550,1910)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="width" val="1"/>
+      <a name="label" val="PredictErr"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
     <comp lib="0" loc="(2250,1610)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="width" val="32"/>
@@ -23441,12 +23459,6 @@ fff48493 fe04d8e3 a00893 73 a00893 73 413 140413
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
-    </comp>
-    <comp lib="0" loc="(1470,1970)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="width" val="1"/>
-      <a name="label" val="PCSrc"/>
-      <a name="labelfont" val="Dialog plain 12"/>
     </comp>
     <comp lib="6" loc="(1013,1213)" name="Text">
       <a name="text" val="S_Type"/>
@@ -24223,6 +24235,12 @@ fff48493 fe04d8e3 a00893 73 a00893 73 413 140413
       <a name="label" val="RST"/>
       <a name="labelfont" val="SansSerif plain 10"/>
     </comp>
+    <comp lib="0" loc="(2000,1650)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="width" val="32"/>
+      <a name="label" val="EXPC4"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
     <comp lib="3" loc="(550,1560)" name="Adder">
       <a name="width" val="32"/>
     </comp>
@@ -24323,7 +24341,7 @@ fff48493 fe04d8e3 a00893 73 a00893 73 413 140413
     <comp lib="0" loc="(790,1620)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="width" val="1"/>
-      <a name="label" val="PCSrc"/>
+      <a name="label" val="PredictErr"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
     <comp lib="3" loc="(610,1480)" name="Adder">
@@ -24626,6 +24644,12 @@ fff48493 fe04d8e3 a00893 73 a00893 73 413 140413
       <a name="halign" val="center"/>
       <a name="valign" val="base"/>
     </comp>
+    <comp lib="0" loc="(760,1770)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="width" val="32"/>
+      <a name="label" val="EXPC4"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
     <comp lib="6" loc="(1021,1115)" name="Text">
       <a name="text" val="MemWrite"/>
       <a name="font" val="Dialog plain 12"/>
@@ -24642,7 +24666,7 @@ fff48493 fe04d8e3 a00893 73 a00893 73 413 140413
     <comp lib="0" loc="(870,280)" name="Constant">
       <a name="facing" val="north"/>
       <a name="width" val="13"/>
-      <a name="value" val="0x377"/>
+      <a name="value" val="0x178"/>
     </comp>
     <comp lib="0" loc="(970,60)" name="Tunnel">
       <a name="facing" val="south"/>
@@ -29901,7 +29925,6 @@ fff48493 fe04d8e3 a00893 73 a00893 73 413 140413
       <rect fill="#ffda44" height="110" rx="5" ry="5" stroke="#000000" stroke-width="2" width="1950" x="10" y="50"/>
       <path d="M61,52 Q65,61 69,52" fill="none" stroke="#808080" stroke-width="2"/>
       <circ-port height="8" pin="540,950" width="8" x="826" y="46"/>
-      <circ-port height="8" pin="660,650" width="8" x="866" y="46"/>
       <circ-port height="10" pin="750,510" width="10" x="155" y="45"/>
       <circ-port height="10" pin="810,660" width="10" x="615" y="45"/>
       <circ-port height="8" pin="480,1000" width="8" x="1786" y="46"/>
@@ -29914,6 +29937,7 @@ fff48493 fe04d8e3 a00893 73 a00893 73 413 140413
       <circ-port height="10" pin="870,950" width="10" x="385" y="45"/>
       <circ-port height="10" pin="870,1130" width="10" x="415" y="45"/>
       <circ-port height="8" pin="220,630" width="8" x="1456" y="46"/>
+      <circ-port height="8" pin="660,650" width="8" x="116" y="46"/>
       <circ-anchor facing="east" height="6" width="6" x="47" y="47"/>
     </appear>
     <wire from="(280,910)" to="(310,910)"/>
@@ -30348,7 +30372,7 @@ fff48493 fe04d8e3 a00893 73 a00893 73 413 140413
       <a name="width" val="1"/>
       <a name="tristate" val="false"/>
       <a name="pull" val="none"/>
-      <a name="label" val="PCSrc"/>
+      <a name="label" val="PredictErr"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
@@ -31551,10 +31575,6 @@ fff48493 fe04d8e3 a00893 73 a00893 73 413 140413
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(2810,1400)" name="Ground">
-      <a name="facing" val="south"/>
-      <a name="width" val="2"/>
-    </comp>
     <comp lib="4" loc="(2630,630)" name="Register">
       <a name="width" val="2"/>
       <a name="trigger" val="rising"/>
@@ -31954,6 +31974,11 @@ fff48493 fe04d8e3 a00893 73 a00893 73 413 140413
       <a name="label" val=""/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
+    </comp>
+    <comp lib="0" loc="(2810,1400)" name="Constant">
+      <a name="facing" val="west"/>
+      <a name="width" val="2"/>
+      <a name="value" val="0x3"/>
     </comp>
     <comp lib="2" loc="(210,450)" name="Demultiplexer">
       <a name="facing" val="east"/>
