@@ -23,8 +23,8 @@ int main()
             if (flag)
                 break;
             vis[snakex[head]] |= 1u << snakey[head];
-            foodx = (foodx * a + b) % N;
-            foody = (foody * a + b) % N;
+            foodx = (foodx * a + b) % 32;
+            foody = (foody * a + b) % 32;
             ++score;
             foodstatus = 1;
         }
